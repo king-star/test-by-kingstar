@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "text9", "text9\text9.csproj", "{6837D3BD-D074-4188-9045-0B30C111D1B7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{AE71ACBA-0585-46E5-95FC-47EC61D1A126}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{BA1C3F2B-A6C9-4AAD-B068-ED8052B37D27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -16,5 +20,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA1C3F2B-A6C9-4AAD-B068-ED8052B37D27} = {AE71ACBA-0585-46E5-95FC-47EC61D1A126}
 	EndGlobalSection
 EndGlobal
